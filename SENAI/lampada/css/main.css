@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(rgb(47, 47, 51), rgb(0, 0, 0), rgb(0, 0, 0)); /* Fundo - Color Linear*/
+    height: 100vh; /* ALTURA */
+    display: flex; /* FORMATO FLEXIVEL */
+    align-items: center; /* INTENS - CENTRO VERTICAL*/
+    justify-content: center;   /* CONTEUDO HORIZONTAL - CENTRO  */
+    /* flex-direction: row ; */
+}
+
+.central{
+    width: 400px; /* LARGURA */
+    background: rgba(19, 187, 33, 0.432); /* FUNDO */
+    border-radius: 10px; /* Bordar arredondada */
+    box-shadow: 7px 7px 18px rgba(253, 207, 0, 0.966);
+    display: flex; 
+    align-items: center; /* ALIAMENTO DO TEXTO */
+    justify-content: center; 
+    flex-direction: column; /* DIREÇÃO  */
+    padding: 10px; /* DISTANCIA ENTRE OS ITENS*/
+    gap: 10px; /* DISTANCIA ENTRE OS CONTEUDOS - NA DIV*/
+}  
+
+.central button {
+    font-size: 30px;
+    width: 150px; 
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer; /* ALTERANDO O CURSO PARA MÃOZINHA  */
+
+}
