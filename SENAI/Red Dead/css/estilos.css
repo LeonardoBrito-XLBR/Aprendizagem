@@ -1,0 +1,79 @@
+
+/*
+HEIGHT = ALTURA
+width = largura
+margin = margem
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Young+Serif&display=swap');
+
+
+body{
+    background: linear-gradient(rgb(105, 3, 3), black) ;
+    
+}
+
+.Titulo  {
+    font-family: Young Serif;
+    font-size: 40px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    /*border-style: dashed;
+    border-width: 5px 6px;
+    border-color: black; */
+    color: rgb(233, 158, 19);
+    line-height: 120%;
+   
+}
+
+p{
+    font-size: 20px;
+    width: 50%;
+    color: rgb(255, 174, 0);
+    text-align: justify;
+    margin: auto;
+
+}
+
+hr {
+    height: 20px; 
+    width: 50%;
+    border-radius: 13px;
+    border: rgb(0, 0, 0);
+    background-color: rgb(20, 20, 19);
+}
+
+#video {
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    
+}
+
+img {
+    height: 230px;
+}
+
+.fotos {
+    width: fit-content;
+    margin: 0 auto;
+    object-fit: cover;
+    
+}
+
+
+.link {
+    color: aliceblue;
+}
+
+#Modos {
+    font-size: 30px;
+    font-family:  Young Serif;
+    color: rgb(233, 158, 19);
+    text-align: center;
+}
+
