@@ -1,6 +1,6 @@
 //DOM
 
-//VARIAVEL NOMETEMPORARIO = BUSCAR ARQUIVO PELO NOME
+//VARIAVEL TEMPORARIA = BUSCAR ARQUIVO PELO ('NOME')
 const lampada = document.querySelector('#lamp')
 const btligar = document.querySelector('#ligar')
 const btdesligar = document.querySelector('#desligar')
