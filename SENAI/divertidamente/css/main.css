@@ -1,6 +1,8 @@
 body{
     /* background: linear-gradient(rgb(64, 0, 107), rgb(62, 17, 71)); */
-    background: url("../images/fundo.jpg"); 
+    background: url("../images/fundo.jpg");
+    background-color: rgba(0, 0, 0, 0.5); /* Defina uma cor com opacidade */
+    background-blend-mode: overlay; /* Ou outras como multiply, screen, etc. */
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -18,15 +20,16 @@ body{
     padding: 35px;
     border-color: aliceblue;
     border-radius: 30px;
-    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.966);
+    box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.966);
 }
-
-
 
 .buttons{ 
     display: flex;
     gap: 8px;
     /* COLORIR */
+    flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    width: 100%; /* Garante que os botões ocupem toda a largura do container */
 }
 
 .opcao button {
@@ -42,15 +45,28 @@ body{
     transition: 0.5s;
     border-radius: 30px;
     border-color: rgb(255, 255, 255);
+    flex: 1 0 20%; /* Os botões ocupam 20% da largura do container */
+    max-width: 20%; /* Garante que cada botão não ultrapasse 20% da largura */
+    margin: 5px; /* Espaçamento entre os botões */
 }
 
 img {
     width: 300px;
-    /* DECORAR */
+    margin-bottom: 20px;
 }
 
 .opcao button:hover {
     background: rgba(94, 6, 209, 0.74);
-    transform: translateY(-2px);
+    transform: translateY(-5px);
 
+}
+
+/* CHAT QUE FEZ */
+/* Ajuste especial para os 4 últimos botões */
+.buttons button:nth-child(6),
+.buttons button:nth-child(7),
+.buttons button:nth-child(8),
+.buttons button:nth-child(9) {
+    flex: 1 0 25%; /* Os botões da segunda linha ocupam 25% da largura */
+    max-width: 25%;
 }
