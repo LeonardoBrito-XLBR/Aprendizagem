@@ -22,6 +22,7 @@ btAnsiedade.addEventListener("click", ansiedade)
 btInveja.addEventListener("click", inveja)
 btVergonha.addEventListener("click", vergonha)
 btTedio.addEventListener("click", tedio)
+btMedo.addEventListener("click", medo)
 
 //FUNÇAO 
 function alegria (){
@@ -48,5 +49,13 @@ function nojinho (){
 
 //BAIXAR E COLOCAR AS IMAGENS
 function ansiedade(){
-    imagem.src=''
+    imagem.src='images/06.png'
+    conteiner.style.backgroundColor = 'orange'
 }
+
+function medo (){
+    imagem.src = 'images/05.png'
+    conteiner.style.backgroundColor = 'purple'
+}
+
+function 
