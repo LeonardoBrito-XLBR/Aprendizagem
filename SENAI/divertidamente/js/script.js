@@ -32,7 +32,7 @@ function alegria (){
 
 function raiva (){
     imagem.src='images/01.png'
-    conteiner.style.backgroundColor = 'red'
+    conteiner.style.backgroundColor = 'red' //ESTILO DO RECIPENTE DA COR DE FUNDO
 }
 
 function tristeza(){
@@ -55,9 +55,17 @@ function ansiedade(){
 
 function medo (){
     imagem.src = 'images/05.png'
-    conteiner.style.backgroundColor = 'purple'
+    conteiner.style.backgroundColor = 'purple' 
 }
 
 function inveja (){
+    imagem.src = 'images/07.png'
+}
 
+function vergonha (){
+    imagem.src = 'images/08.png'
+}
+
+function tedio (){
+    imagem.src='images/09.png'
 }
