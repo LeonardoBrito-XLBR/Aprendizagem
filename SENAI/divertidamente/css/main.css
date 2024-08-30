@@ -66,14 +66,13 @@ img {
 .buttons button:nth-child(6),
 .buttons button:nth-child(7),
 .buttons button:nth-child(8),
-.buttons button:nth-child(9) {
+.buttons button:nth-child(9) 
+.buttons button:nth-child(10){
     flex: 1 0 25%; /* Os botões da segunda linha ocupam 25% da largura */
     max-width: 25%;
 }
 
-hr{
-    height: 10px;
-    width: 50%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+.texto {
+    font-size: 40px;
+    color: aliceblue;
 }
