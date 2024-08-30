@@ -10,6 +10,7 @@ const btAnsiedade = document.querySelector("#ansiedade")
 const btInveja = document.querySelector("#inveja")
 const btTedio = document.querySelector("#tedio")
 const btVergonha = document.querySelector("#vergonha")
+const btLimpar = document.querySelector ("#limpa")
 const conteiner = document.querySelector('.opcao')
 
 //EVENTOS 
@@ -23,6 +24,7 @@ btInveja.addEventListener("click", inveja)
 btVergonha.addEventListener("click", vergonha)
 btTedio.addEventListener("click", tedio)
 btMedo.addEventListener("click", medo)
+btLimpar.addEventListener("click", limpar)
 
 //FUNÇAO 
 function alegria (){
@@ -32,30 +34,30 @@ function alegria (){
 
 function raiva (){
     imagem.src='images/01.png'
-    conteiner.style.backgroundColor = 'red' //ESTILO DO RECIPENTE DA COR DE FUNDO
+    // conteiner.style.backgroundColor = 'red' //ESTILO DO RECIPENTE DA COR DE FUNDO
 }
 
 function tristeza(){
     imagem.src='images/04.png'
-    conteiner.style.backgroundColor = 'blue'
+    // conteiner.style.backgroundColor = 'blue'
 
 }
 
 function nojinho (){
     imagem.src='images/03.png'
-    conteiner.style.backgroundColor = 'green'
+    // conteiner.style.backgroundColor = 'green'
     
 }
 
 //BAIXAR E COLOCAR AS IMAGENS
 function ansiedade(){
     imagem.src='images/06.png'
-    conteiner.style.backgroundColor = 'orange'
+    // conteiner.style.backgroundColor = 'orange'
 }
 
 function medo (){
     imagem.src = 'images/05.png'
-    conteiner.style.backgroundColor = 'purple' 
+    // conteiner.style.backgroundColor = 'purple' 
 }
 
 function inveja (){
@@ -68,4 +70,9 @@ function vergonha (){
 
 function tedio (){
     imagem.src='images/09.png'
+}
+
+function limpar (){
+    imagem.src = 'images/silhueta.png'
+
 }
