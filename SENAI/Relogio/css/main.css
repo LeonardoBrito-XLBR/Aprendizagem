@@ -1,6 +1,6 @@
 body{
     height: 90vh; /* altura maxima */
-    background: url('/images/06.jpg');
+    background: url('/images/02.jpg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
