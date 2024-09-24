@@ -58,15 +58,21 @@ function relogio(){
         me='0'+me
     }
 
+    // MUDAR O FUNDO PARA UMA Imagem (OPOCIONAL) ALVO.SRC ''
+    // MUDAR O ICONE PARA SOL MANHÃ- NUVEM TARDE - LUA NOITE
+
     if (h>= 5 && h<12){
         saudacao.textContent = 'Bom Dia'
         document.querySelector('.data').style.backgroundColor = 'yellow' 
+        // alvo.src''
+        
     }else if (h>=12 && h<18){
         saudacao.textContent = 'Boa Tarde'
-
-        document.querySelector('body').style.backgroundColor = 'yellow'
+        // alvo.src''
+        document.querySelector('body').style.backgroundColor = 'orange'
     } else {
         saudacao.textContent = 'Boa noite'
+        // alvo.src''
     }
 
     //.textContent altera o valor da variavel
