@@ -75,6 +75,7 @@ function relogio(){
         // alvo.src''
     }
 
+
     //.textContent altera o valor da variavel
     horas.textContent = h
     minutos.textContent = m
