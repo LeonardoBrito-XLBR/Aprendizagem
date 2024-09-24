@@ -1,23 +1,23 @@
 //DOM
 
 //BOTÃO PERSONALIZADO
-document.addEventListener('DOMContentLoaded', (event) => {
-    const button = document.getElementById('toggleButton');
-    const audio = document.getElementById('audio');
+// document.addEventListener('DOMContentLoaded', (event) => {
+//     const button = document.getElementById('toggleButton');
+//     const audio = document.getElementById('audio');
     
-    let isPlaying = false;
+//     let isPlaying = false;
 
-    button.addEventListener('click', () => {
-        if (isPlaying) {
-            audio.pause();
-            button.textContent = 'Iniciar Música';
-        } else {
-            audio.play();
-            button.textContent = 'Parar Música';
-        }
-        isPlaying = !isPlaying;
-    });
-});
+//     button.addEventListener('click', () => {
+//         if (isPlaying) {
+//             audio.pause();
+//             button.textContent = '🎶 Iniciar Música 🎶';
+//         } else {
+//             audio.play();
+//             button.textContent = 'Parar Música';
+//         }
+//         isPlaying = !isPlaying;
+//     });
+// });
 //BOTÃO PERSONALIZADO
 
 const horas = document.querySelector('#hora')
