@@ -23,6 +23,10 @@
 const horas = document.querySelector('#hora')
 const minutos = document.querySelector('#minuto')
 const segundos = document.querySelector('#segundo')
+const dia = document.querySelector('#dia')
+const mes = document.querySelector('#mes')
+const ano = document.querySelector('#ano')
+const saudacao = document.querySelector('#saudacao')
 
 //EVENTO
 
@@ -36,6 +40,9 @@ function relogio(){
     let h = hoje.getHours() // H so pega do HOJE a hora
     let m = hoje.getMinutes()
     let s = hoje.getSeconds()
+    let d = hoje.getDate()
+    let me = hoje.getMonth()+1
+    let y = hoje.getFullYear()
 
     if (h<10){
         h="0"+h
@@ -47,8 +54,35 @@ function relogio(){
         s="0"+s
     }
 
+    if (me<10){
+        me='0'+me
+    }
+
+    // MUDAR O FUNDO PARA UMA Imagem (OPOCIONAL) ALVO.SRC ''
+    // MUDAR O ICONE PARA SOL MANHÃ- NUVEM TARDE - LUA NOITE
+
+    if (h>= 5 && h<12){
+        saudacao.textContent = 'Bom Dia'
+        document.querySelector('.data').style.backgroundColor = 'yellow' 
+        // alvo.src''
+        
+    }else if (h>=12 && h<18){
+        saudacao.textContent = 'Boa Tarde'
+        // alvo.src''
+        document.querySelector('body').style.backgroundColor = 'orange'
+    } else {
+        saudacao.textContent = 'Boa noite'
+        // alvo.src''
+    }
+
+
     //.textContent altera o valor da variavel
     horas.textContent = h
     minutos.textContent = m
     segundos.textContent = s
+
+
+    dia.textContent = d
+    mes.textContent = me
+    ano.textContent = y
 }
