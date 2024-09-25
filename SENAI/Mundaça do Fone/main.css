@@ -1,7 +1,12 @@
 body {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 90vh;
+}
+
+H1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
 }
