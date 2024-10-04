@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    background: url('');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.central{
+    width: 400px;
+    background: rgba(180, 201, 228, 0.39);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.central input{
+    height: 20px;
+    background: silver;
+    border: none;
+    outline: none;
+    
+}
+
+.central input:focus{
+    background: rgb(82, 104, 201);
+}
+
+.central button{
+    background-color:rgb(82, 104, 201) ;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
