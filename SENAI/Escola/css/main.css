@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background: url('');
+    background: url('../image/');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -18,7 +18,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     box-shadow: 5px 5px 10px black;
 }
 
