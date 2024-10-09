@@ -28,7 +28,7 @@ body {
     box-shadow: 0 0 20px rgb(28, 255, 255);
     width: 300px;
     height: 403px;
-    gap: 20px;
+    gap: 10px;
     padding: 40px;
     background-color: rgba(0, 162, 255, 0.11);
     
@@ -44,8 +44,9 @@ body {
 }
 
 input {
-    height: 20px;
-    border-radius: 5px;
+    height: 30px;
+    width: auto;
+    border-radius: 8px;
     border: none;
     
 }
