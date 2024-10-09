@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 
 
 body {
@@ -13,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     color: aliceblue;
-    font-family: "Karla";
+    font-family: "DM Sans", sans-serif; /* NOME DAS FONTES */
 }
 
 
@@ -25,12 +26,10 @@ body {
     justify-content: center;
     border: 2px solid rgba(29, 255, 180, 0.267);
     border-radius: 20px;
-    box-shadow: 0 0 20px rgb(28, 255, 255);
-    width: 300px;
-    height: 403px;
+    box-shadow: 0 0 20px rgb(85, 213, 245);
     gap: 10px;
     padding: 40px;
-    background-color: rgba(0, 162, 255, 0.11);
+    background-color: rgba(0, 47, 75, 0.671);
     
 
 }
@@ -48,14 +47,17 @@ input {
     width: auto;
     border-radius: 8px;
     border: none;
+    width: 200px;
     
 }
 h1{
     font-size: 40px;
     color: aqua;
     margin-bottom: 30px;
-    font-family:"karla";
+}
 
+p{
+    font-size:20px;
 }
 
 button {
@@ -67,6 +69,7 @@ button {
     font-size: 20px;
     cursor: pointer;
     transition: 0.5s;
+    
     
 }
 
