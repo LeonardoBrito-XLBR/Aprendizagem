@@ -1,0 +1,96 @@
+@font-face{
+    font-family: fontGamer; /* APELIDO DA FONTE */
+    src:url(/font/Gameplay.ttf) /* LINK DO ARQUIVO */
+}
+
+body {
+    background: url(/image/plano-de-fundo-da-green-hill-zone-tqrucc42uwyugojs.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.612);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.centro {
+    border: 3px solid black ;
+    text-align: center;
+    
+
+    width: 550px;
+    background-color: #1909ff30;
+    padding: 20px;
+    border-radius: 20px;   
+
+}
+
+
+
+.titulo {
+    /* border: 3px solid black ; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.titulo img{
+    width: 200px;
+    border-radius: 50%;
+}   
+
+
+.centro .titulo span{
+    font-size: 25px;
+    font-family: fontGamer;
+}
+
+.centro p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+}
+
+
+/* TAMANHO DO TABLET*/
+@media (max-width: 1024px) and (min-width:768px){
+    body{
+        background:linear-gradient(red, black) ;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+
+}
+
+/* TAMANHO DO MOBILE */
+
+@media (max-width: 768px)  {
+    body{
+        background:linear-gradient(red, rgb(9, 255, 0)) ;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+
+
+
+    }
+
+    .centro .titulo{
+        flex-direction: column;
+    }
+}
+
+
+/*  FAZER PARA O RELOGIO < 380*/
+
+/* SIMULADOR MOVEL APP*/
