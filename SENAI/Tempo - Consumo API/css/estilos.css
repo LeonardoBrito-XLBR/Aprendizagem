@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
+:root {
+  --fonte: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: var(--fonte);
 }
 body {
   height: 100vh;
@@ -15,6 +20,12 @@ body {
   /* TROCAR A FOTO */
   background: url("https://plus.unsplash.com/premium_photo-1667143324668-064f130f731d?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+}
+
+h1{
+  color: white;
+  font-family:var(--fonte);
+  padding: 10px;
 }
 
 .caixa-maior {
@@ -50,6 +61,11 @@ body {
   background: #ebd6d62b;
   cursor: pointer;
   float: right;
+
+}
+
+.botao-busca i{
+  
 }
 
 .img-busca {
