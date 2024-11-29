@@ -18,8 +18,23 @@ body {
   align-items: center;
   justify-content: center;
   /* TROCAR A FOTO */
-  background: url("https://plus.unsplash.com/premium_photo-1667143324668-064f130f731d?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  /* background: url("https://plus.unsplash.com/premium_photo-1667143324668-064f130f731d?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
   background-size: cover;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+#fundoVideo {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  min-width: 100%;
+  height: auto;
+
+  max-width: 600px
 }
 
 h1{
